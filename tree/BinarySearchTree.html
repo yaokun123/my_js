@@ -3,8 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>二叉搜索树</title>
+    <style>
+        .red{color: red;}
+        .img{width: 300px;height: 300px;}
+    </style>
 </head>
 <body>
+<div class="context">
+    <h1>一、二叉搜索树作为数据存储的结构有重要的优势O(logn)</h1>
+    <div>
+        1、可以<span class="red">快速地</span>找到关键字的数据项，并可以快速的<span class="red">插入和删除数据项</span>。
+    </div>
+    <hr>
+
+
+    <h1>二、二叉树的缺陷：</h1>
+    <div>
+        1、如果插入的数据是<span class="red">有序的数据</span>，比如下面的情况：
+        <br>
+        <ul>
+            <li>有一棵初始化为9 8 12的二叉树</li>
+            <li>插入下面的数据：7 6 5 4 3</li>
+        </ul>
+        <img class="img" src="tree.png" alt="">
+        <div>
+            这样会导致数据分布不均，树的高度变高，查询效率底下
+        </div>
+    </div>
+    <hr>
+
+    <h1>三、非平衡树</h1>
+    <div>
+        <ul>
+            <li>比较好的二叉搜索树数据应该是<span class="red">左右分布均匀</span>的</li>
+            <li>但是插入<span class="red">连续数据</span>后，<span class="red">分布的不均匀</span>，我们称这种树为<span class="red">非平衡树</span></li>
+            <li>对于一棵<span class="red">平衡二叉树</span>来说，插入/查找等操作的效率是<span class="red">O(logN)</span></li>
+            <li>对于一棵<span class="red">非平衡二叉树</span>，相当于编写了一个链表，查找效率变成<span class="red">O(N)</span></li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1>四、树的平衡性</h1>
+    <div>
+        为了能以<span class="red">较快的时间O(logN)</span>来操作一颗树，我们需要<span class="red">保证树总是平衡的</span>
+        <ul>
+            <li>至少大部分是平衡的，那么时间复杂度也是接近O(logN)的</li>
+            <li>也就是说树中<span class="red">每个节点左边的子孙节点</span>的个数，应该尽可能的等于<span class="red">右边的子孙节点的个数</span></li>
+            <li>常见的平衡树有哪些呢？</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1>五、AVL树</h1>
+    <div>
+        <ul>
+            <li>AVL树是最早的一种平衡树，它有些办法保持<span class="red">树的平衡</span>（每个节点多存储了一个额外的数据）</li>
+            <li>因为AVL树是<span class="red">平衡的</span>，所以时间复杂度也是O(logN)</li>
+            <li>但是，每次插入/删除操作相对于红黑树都不高，所以<span class="red">整体效率不如红黑树</span></li>
+            <li>目前使用较少了</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1>六、红黑树</h1>
+    <div>
+        <ul>
+            <li>红黑树也通过<span class="red">一些特性</span>来保持树的平衡</li>
+            <li>因为是平衡树，所以时间复杂度也是在O(logN)</li>
+            <li>另外插入/删除等操作，红黑树的性能要优于AVL树，所以现在的平衡树的应用基本都是红黑树</li>
+        </ul>
+    </div>
+
+</div>
 <script src="BinarySearchTree.js"></script>
 <script>
     //测试代码

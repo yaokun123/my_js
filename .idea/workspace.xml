@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48352a4-59ea-4717-8ef8-aa38643eec91" name="Default Changelist" comment="" />
+    <list default="true" id="d48352a4-59ea-4717-8ef8-aa38643eec91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tree/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/BinarySearchTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/tree/BinarySearchTree.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redblacktree/redBlackTree.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.js">
+        <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="296" column="32" lean-forward="true" selection-start-line="296" selection-start-column="32" selection-end-line="296" selection-end-column="32" />
+            <state relative-caret-position="545">
+              <caret line="72" column="59" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -40,17 +49,18 @@
       <list>
         <option value="$PROJECT_DIR$/hashTable.html" />
         <option value="$PROJECT_DIR$/tree/BinarySearchTree.js" />
-        <option value="$PROJECT_DIR$/tree/BinarySearchTree.html" />
         <option value="$PROJECT_DIR$/hashTable/hashTable.js" />
         <option value="$PROJECT_DIR$/hashTable/hashTable.html" />
+        <option value="$PROJECT_DIR$/redblacktree/redBlackTree.js" />
+        <option value="$PROJECT_DIR$/tree/BinarySearchTree.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="y" value="87" />
-    <option name="width" value="1597" />
-    <option name="height" value="893" />
+    <option name="x" value="11" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,6 +74,11 @@
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_js" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -80,6 +95,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tree" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/hashTable" />
     </key>
@@ -110,6 +128,7 @@
       <workItem from="1571970654252" duration="5216000" />
       <workItem from="1573436461416" duration="445000" />
       <workItem from="1573455313982" duration="4046000" />
+      <workItem from="1573477096567" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="insert">
       <created>1573461823039</created>
@@ -150,15 +169,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13511000" />
+    <option name="totallyTimeSpent" value="16233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="87" width="1597" height="893" extended-state="0" />
+    <frame x="11" y="23" width="1440" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16497461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -170,6 +189,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,17 +234,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="296" column="32" lean-forward="true" selection-start-line="296" selection-start-column="32" selection-end-line="296" selection-end-column="32" />
+          <caret line="296" column="32" selection-start-line="296" selection-start-column="32" selection-end-line="296" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redblacktree/redBlackTree.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="72" column="59" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
         </state>
       </provider>
     </entry>
