@@ -181,9 +181,8 @@
                 }else{
                     //2、根据对应的情况删除节点
 
-                    if(current.left == null && current.right == null){
-                        //第一种情况：删除叶子节点
-                        if(current == this.root){//如果删除的就是根节点
+                    if(current.left == null && current.right == null){//第一种情况：删除叶子节点
+                        if(current == this.root){
                             this.root = null;
                         }else{
                             if(isLeftChild){
@@ -192,10 +191,8 @@
                                 parent.right = null;
                             }
                         }
-                    }else if(current.left==null || current.right == null){
-                        //第二种情况：删除只有一个子节点的节点
+                    }else if(current.left==null || current.right == null){//第二种情况：删除只有一个子节点的节点
                         var tmp = current.left!=null ? current.left : current.right;
-
                         if(current == this.root){
                             this.root = tmp;
                         }else{
