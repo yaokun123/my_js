@@ -109,10 +109,8 @@
             var node = this.root;
             var current = null;
             while (node != null){
+                current = node;
                 node = node.left;
-                if(node!=null){
-                    current = node;
-                }
             }
             return current.key;
         },
@@ -121,10 +119,8 @@
             var node = this.root;
             var current = null;
             while (node != null){
+                current = node;
                 node = node.right;
-                if(node!=null){
-                    current = node;
-                }
             }
             return current.key;
         },

@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+            <state relative-caret-position="516">
+              <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="67" />
+    <option name="x" value="733" />
+    <option name="y" value="37" />
     <option name="width" value="1597" />
     <option name="height" value="893" />
   </component>
@@ -66,11 +66,6 @@
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_js" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
@@ -121,15 +116,23 @@
       <workItem from="1571966795588" duration="3804000" />
       <workItem from="1571970654252" duration="5216000" />
       <workItem from="1573436461416" duration="445000" />
-      <workItem from="1573455313982" duration="665000" />
+      <workItem from="1573455313982" duration="1782000" />
     </task>
+    <task id="LOCAL-00001" summary="insert">
+      <created>1573461823039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573461823039</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10130000" />
+    <option name="totallyTimeSpent" value="11247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="67" width="1597" height="893" extended-state="0" />
+    <frame x="733" y="37" width="1597" height="893" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16497461" />
@@ -153,6 +156,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
@@ -185,8 +192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/BinarySearchTree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+        <state relative-caret-position="516">
+          <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
         </state>
       </provider>
     </entry>
