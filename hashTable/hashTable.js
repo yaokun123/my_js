@@ -190,19 +190,3 @@ hashTable.prototype = {
         return this.limit;
     }
 };
-
-
-//测试
-var hash = new hashTable();
-hash.set('abc','1111');
-hash.set('cba','2222');
-hash.set('nba','3333');
-hash.set('mba','4444');
-hash.set('abc1','5555');
-hash.set('abc2','6666');
-
-console.log(hash.getLimit());
-console.log(hash.get('mba'));
-
-
-console.log('======');
