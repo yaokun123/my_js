@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classExtends/createObject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classExtends/prototype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classExtends/prototype2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classExtends/prototypeExtends.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classExtends/createObject.html">
+        <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="113" column="32" lean-forward="true" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+            <state relative-caret-position="228">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -46,11 +44,12 @@
         <option value="$PROJECT_DIR$/classExtends/applyandcall.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/classExtends/createObject.html" />
+        <option value="$PROJECT_DIR$/classExtends/prototypeExtends.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
+    <option name="x" value="223" />
     <option name="y" value="23" />
     <option name="width" value="1597" />
     <option name="height" value="893" />
@@ -121,15 +120,15 @@
       <workItem from="1573802333676" duration="149000" />
       <workItem from="1574055411490" duration="32000" />
       <workItem from="1575430349855" duration="2534000" />
-      <workItem from="1575438220473" duration="2140000" />
+      <workItem from="1575438220473" duration="2644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5390000" />
+    <option name="totallyTimeSpent" value="5894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="23" width="1597" height="893" extended-state="0" />
+    <frame x="223" y="23" width="1597" height="893" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -178,8 +177,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classExtends/createObject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="113" column="32" lean-forward="true" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+        <state relative-caret-position="316">
+          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
