@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classExtends/applyandcall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_js.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/redBlackTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/redblacktree/redBlackTree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/redBlackTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/redblacktree/redBlackTree.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classExtends/applyandcall.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+            <state relative-caret-position="503">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,8 +52,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="310" />
-    <option name="y" value="28" />
+    <option name="x" value="457" />
+    <option name="y" value="23" />
     <option name="width" value="1597" />
     <option name="height" value="893" />
   </component>
@@ -62,7 +68,7 @@
           <expand>
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_js" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -102,16 +108,15 @@
       <workItem from="1573607888207" duration="535000" />
       <workItem from="1573802333676" duration="149000" />
       <workItem from="1574055411490" duration="32000" />
-      <workItem from="1575430349855" duration="2262000" />
+      <workItem from="1575430349855" duration="2534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2978000" />
+    <option name="totallyTimeSpent" value="3250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="23" width="1597" height="893" extended-state="0" />
-    <editor active="true" />
+    <frame x="310" y="28" width="1597" height="893" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -145,8 +150,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classExtends/applyandcall.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        <state relative-caret-position="503">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
         </state>
       </provider>
     </entry>
