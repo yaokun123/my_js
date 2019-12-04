@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classExtends/prototypeExtends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="413">
+              <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -120,12 +117,12 @@
       <workItem from="1573802333676" duration="149000" />
       <workItem from="1574055411490" duration="32000" />
       <workItem from="1575430349855" duration="2534000" />
-      <workItem from="1575438220473" duration="2644000" />
+      <workItem from="1575438220473" duration="2933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5894000" />
+    <option name="totallyTimeSpent" value="6183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="223" y="23" width="1597" height="893" extended-state="0" />
@@ -184,8 +181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="413">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
         </state>
       </provider>
     </entry>

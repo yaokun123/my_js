@@ -123,7 +123,9 @@ xiaoming instanceof Student; // true
         };
         F.prototype = Parent.prototype;
         Child.prototype = new F();
+        console.log(Child.prototype.constructor);
         Child.prototype.constructor = Child;
+        console.log(Child.prototype.constructor);
     }
     inherits(PrimaryStudent,Student);
 
