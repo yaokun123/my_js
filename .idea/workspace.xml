@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="" />
+    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/责任链模式/面向过程完成举报功能.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
+        <entry file="file://$PROJECT_DIR$/责任链模式/面向过程完成举报功能.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
+            <state relative-caret-position="152">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -42,14 +45,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/classExtends/createObject.html" />
         <option value="$PROJECT_DIR$/classExtends/prototypeExtends.html" />
+        <option value="$PROJECT_DIR$/责任链模式/面向过程完成举报功能.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="23" />
-    <option name="width" value="1597" />
-    <option name="height" value="893" />
+    <option name="x" value="542" />
+    <option name="y" value="42" />
+    <option name="width" value="1094" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,15 +67,6 @@
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_js" type="462c0819:PsiDirectoryNode" />
-              <item name="classExtends" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -118,17 +113,17 @@
       <workItem from="1574055411490" duration="32000" />
       <workItem from="1575430349855" duration="2534000" />
       <workItem from="1575438220473" duration="2933000" />
+      <workItem from="1577192029593" duration="693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6183000" />
+    <option name="totallyTimeSpent" value="6912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="23" width="1597" height="893" extended-state="0" />
-    <editor active="true" />
+    <frame x="542" y="42" width="1094" height="819" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21808015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,6 +178,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/观察者模式/观察者模式做风格切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/观察者模式/面向过程完成页面风格切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" column="57" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/责任链模式/面向过程完成举报功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
