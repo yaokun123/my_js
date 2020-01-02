@@ -30,5 +30,5 @@ server.on('request',function(request,response){
 
 
 server.listen(9090,function(){
-    console.log('服务器启动了。请访问：localhost:8888');
+    console.log('服务器启动了。请访问：localhost:9090');
 });
