@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="" />
+    <list default="true" id="98db29a7-4879-4ff7-a91f-d12a3a498342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/Mime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/src/README_js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/src/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/src/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/types/other.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/mime/types/standard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/underscore-min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/node_modules/underscore/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/html/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/imgs/1_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs简单示例/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/applyandcall.html" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/applyandcall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/createObject.html" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/createObject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/prototype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/prototype2.png" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/prototype2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/prototype3.png" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/prototype3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classExtends/prototypeExtends.html" beforeDir="false" afterPath="$PROJECT_DIR$/继承js/prototypeExtends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashTable/hashTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表的实现hashTable/hashTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashTable/hashTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表的实现hashTable/hashTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/five.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/five.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/four.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/four.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/leftChange.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/leftChange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/redBlackTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/redBlackTree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/redBlackTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/redBlackTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/redblacktree.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/redblacktree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/rightChange.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/rightChange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redblacktree/three.png" beforeDir="false" afterPath="$PROJECT_DIR$/红黑树redblacktree/three.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/BinarySearchTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/树/BinarySearchTree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/树/BinarySearchTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/树/tree.png" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +64,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
+        <entry file="file://$PROJECT_DIR$/nodejs简单示例/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
+            <state relative-caret-position="579">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs简单示例/route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs简单示例/template.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -42,12 +108,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/classExtends/createObject.html" />
         <option value="$PROJECT_DIR$/classExtends/prototypeExtends.html" />
+        <option value="$PROJECT_DIR$/test_node/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="23" />
+    <option name="x" value="194" />
+    <option name="y" value="57" />
     <option name="width" value="1597" />
     <option name="height" value="893" />
   </component>
@@ -57,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,18 +134,12 @@
             </path>
             <path>
               <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_js" type="462c0819:PsiDirectoryNode" />
-              <item name="classExtends" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,16 +179,16 @@
       <workItem from="1573802333676" duration="149000" />
       <workItem from="1574055411490" duration="32000" />
       <workItem from="1575430349855" duration="2534000" />
-      <workItem from="1575438220473" duration="2933000" />
+      <workItem from="1575438220473" duration="3271000" />
+      <workItem from="1577953260180" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6183000" />
+    <option name="totallyTimeSpent" value="7012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="23" width="1597" height="893" extended-state="0" />
-    <editor active="true" />
+    <frame x="194" y="57" width="1597" height="893" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -151,7 +213,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/redblacktree/redBlackTree.html">
+    <entry file="file://$PROJECT_DIR$/红黑树redblacktree/redBlackTree.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3705">
           <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
@@ -165,24 +227,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classExtends/applyandcall.html">
+    <entry file="file://$PROJECT_DIR$/继承js/applyandcall.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classExtends/createObject.html">
+    <entry file="file://$PROJECT_DIR$/继承js/createObject.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classExtends/prototypeExtends.html">
+    <entry file="file://$PROJECT_DIR$/继承js/prototypeExtends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="125" column="35" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs简单示例/public/imgs/1_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs简单示例/public/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs简单示例/template.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs简单示例/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs简单示例/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
