@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--会将数组转化为字符串展示出来-->
+    {{movies}}
+
+    <!--遍历-->
+    <ul>
+        <li v-for="item in movies">{{item}}</li>
+    </ul>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'vue列表',
+            movies: ['星际穿越','大话西游','盗梦空间','少年派']
+        }
+    });
+
+    //也是响应式：app.movies.push('西游记')
+</script>
+</body>
+</html>
