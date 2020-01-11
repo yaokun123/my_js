@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app">
+    <!--1、直接拼接，语法过于繁琐-->
+    <h2>直接拼接{{firstName}} {{lastName}}</h2>
+
+    <!--2、通过定义methods，会调用多次-->
+    <h2>methods：{{getFullName()}}</h2>
+    <h2>methods：{{getFullName()}}</h2>
+    <h2>methods：{{getFullName()}}</h2>
+    <h2>methods：{{getFullName()}}</h2>
+
+    <!--3、通过computed，只会调用一次-->
+    <h2>computed：{{fullName}}</h2>
+    <h2>computed：{{fullName}}</h2>
+    <h2>computed：{{fullName}}</h2>
+    <h2>computed：{{fullName}}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'Kobe',
+            lastName: 'Bryant'
+        },
+        methods: {
+            getFullName: function () {
+                console.log('111111');
+                return this.firstName + ' ' + this.lastName;
+            }
+        },
+        computed:{
+            fullName: function () {
+                console.log('2222222');
+
+                //只要关联变量不发生变化，会使用缓存，函数不会被频繁调用
+                return this.firstName + ' ' + this.lastName;
+            }
+        }
+    });
+</script>
+</body>
+</html>
