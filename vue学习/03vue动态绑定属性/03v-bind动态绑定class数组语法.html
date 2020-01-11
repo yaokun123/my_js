@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--动态绑定class数组语法，用法较少-->
+    <!--数组里面加上单引号就是字符串，不加单引号就是变量-->
+    <!--也可以将数组放入函数中-->
+    <h2 class="title" v-bind:class="['active','line']">{{message}}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world'
+        }
+    });
+</script>
+
+</body>
+</html>

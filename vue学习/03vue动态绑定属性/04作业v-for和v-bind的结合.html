@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--作业需求：点击列表中的哪一项，那么该项的文字变成红色-->
+<div id="app">
+    <ul>
+        <li v-bind:class="{active:isActive}" v-on:click="change" v-for="(item,index) in movies">{{index}}-{{item}}</li>
+    </ul>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world',
+            movies: ['test1','test2','test3'],
+            isActive:false
+        },
+        methods: {
+            change: function () {
+                this.isActive = !this.isActive;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
