@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <ul>
+        <li v-for="item in letters">{{item}}</li>
+    </ul>
+
+    <button @click="btnClick">按钮</button>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            letters: ['A','B','C','D','E']
+        },
+        methods:{
+            btnClick(){
+                //1、push方法
+                //this.letters.push('F');
+
+                //2、pop方法
+                //this.letters.pop()
+
+                //3、shift方法
+                //this.letters.shift()
+
+                //4、unshift方法
+                //this.letters.unshift('F')
+
+                //5、splice方法
+                //this.letters.splice(1,0,'a')
+
+                //6、sort方法
+                //this.letters.sort()
+
+                //7、reverse方法
+                //this.letters.reverse();
+
+
+
+                //注意：通过索引修改数组中的元素
+                //虽然数据变了但是页面并没有变化，没有做到响应式
+                //this.letters[0] = 'a';
+                //如果又这种需求请使用splice
+                //还可以使用Vue.set(要修改的对象,索引,索引值)
+                Vue.set(this.letters,0,'a')
+            }
+        }
+    });
+</script>
+</body>
+</html>

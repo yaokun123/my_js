@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--1、在遍历对象的过程中，如果只是偶去一个值，那么获取到的是value-->
+    <ul>
+        <li v-for="item in info">{{item}}</li>
+    </ul>
+
+    <!--2、获取key和value的格式：(value,key)-->
+    <ul>
+        <li v-for="(val,key) in info">{{key}}:{{val}}</li>
+    </ul>
+
+    <!--3、获取key和value和index的格式：(value,key,index）-->
+    <ul>
+        <li v-for="(val,key,index) in info">{{index+1}}、{{key}}:{{val}}</li>
+    </ul>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            info: {
+                name:'test',
+                age:18,
+                sex:'man'
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
