@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <span v-if="isUserNameLogin">
+        用户名：
+        <input type="text" placeholder="请输入用户名">
+    </span>
+    <span v-else>
+        邮箱：
+        <input type="text" placeholder="请输入邮箱">
+    </span>
+    <button @click="change">切换类型</button>
+</div>
+
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            isUserNameLogin:true
+        },
+        methods:{
+            change(){
+                this.isUserNameLogin = !this.isUserNameLogin
+            }
+        }
+    });
+</script>
+</body>
+</html>
