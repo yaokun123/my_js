@@ -25,7 +25,7 @@
                 <td>{{item.id}}</td>
                 <td>{{item.name}}</td>
                 <td>{{item.date}}</td>
-                <td>{{getFinalPrice(item.price)}}</td>
+                <td>{{getFinalPrice(item.price * item.count)}}</td>
                 <td>
                     <button @click="decrement(index)" :disabled="item.count <= 1">-</button>
                     {{item.count}}
