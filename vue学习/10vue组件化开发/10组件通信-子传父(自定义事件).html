@@ -9,7 +9,7 @@
 <!--父组件模版-->
 <div id="app">
     <!--父组件中监听子组件的自定义事件-->
-    <cpn @itemclick="cpnClick"></cpn>
+    <cpn @imclick="cpnClick"></cpn>
 </div>
 
 <!--子组件模版-->
@@ -37,7 +37,7 @@
         methods:{
             itemclick(item){
                 //子组件中自定义事件通知父组件
-                this.$emit('itemclick',item)
+                this.$emit('imclick',item)
             }
         }
     };
