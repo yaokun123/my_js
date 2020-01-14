@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn></cpn>
+    <cpn></cpn>
+    <!--使用插槽-->
+    <cpn>
+        <button>案例</button>
+    </cpn>
+    <cpn>
+        <span>哈哈哈</span>
+    </cpn>
+</div>
+
+<template id="cpn">
+    <div style="border: 1px solid red;">
+        <h2>我是组件</h2>
+        <p>我是组件哈哈哈哈</p>
+
+        <!--如果想组件显示不同的内容在这里可以定义一个插槽-->
+        <!--插槽中也可以设置默认值，如果使用的时候不传，就是使用默认值-->
+        <slot></slot>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world'
+        },
+        components:{
+            cpn:{
+                template:'#cpn'
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
