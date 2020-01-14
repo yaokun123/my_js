@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn>
+        <button slot="one">按钮</button>
+    </cpn>
+</div>
+
+<template id="cpn">
+    <div style="border: 1px solid red;">
+
+        <!--定义多个插槽,为每个插槽指定名称-->
+        <slot name="one"><span>1</span></slot>
+        <h2>我是组件</h2>
+        <slot name="two"><span>2</span></slot>
+        <p>我是组件哈哈哈哈</p>
+        <slot name="three"><span>3</span></slot>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world'
+        },
+        components:{
+            cpn:{
+                template:'#cpn'
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
