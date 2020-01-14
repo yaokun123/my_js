@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn></cpn>
+
+    <!--这里使用refs就要在组件上加一个ref属性-->
+    <!--<cpn ref="aaa"></cpn>-->
+
+
+    <button @click="btnClick">按钮children</button>
+    <button @click="btnClick2">按钮refs</button>
+</div>
+
+<template id="cpn">
+
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world'
+        },
+        methods:{
+            btnClick(){
+
+                //1、$children的使用（使用索引）一般在开发中使用较少
+                console.log(this.$children);
+                this.$children[0].showMessage();//访问子组件中的方法
+                console.log(this.$children[0].name);//访问子组件中的属性
+
+
+            },
+            btnClick2(){
+                //2、$refs的使用
+                console.log(this.$refs);//默认refs是一个空对象{}，必须要在组件上加属性
+            }
+        },
+        components:{
+            cpn:{
+                template:'#cpn',
+                data(){
+                    return {
+                        name:'我是子组件的name'
+                    };
+                },
+                methods:{
+                    showMessage(){
+                        console.log('showMessage')
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
