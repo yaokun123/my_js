@@ -13,20 +13,20 @@
 
 
 <script>
-    //ES5之前因为if和for都没有块级作用域的概念，所以在很多时候，我们都必须借助于function的作用域来解决引用外卖呢变量的问题
+    //ES5之前因为if和for都没有块级作用域的概念，所以在很多时候，我们都必须借助于function的作用域来解决引用外面的变量问题
     //ES6中加入了let，let它是有 if和for 的块级作用域
     //1、变量作用域：变量在什么范围内是可用的
     {
         var name = 'test';//使用var声明的变量没有块级别
         console.log(name)
     }
-    console.log(name);
+    console.log(name);//块的外部仍然可以打印块中定义的变量(var)
 
     {
         let name2 = 'ttttt';
         console.log(name2);
     }
-    //console.log(name2);
+    //console.log(name2);//块的外部不能再打印块中定义的变量(let)
     console.log('=================');
 
 
@@ -43,6 +43,8 @@
     }
     name = 'kobe';//这里name修改了
     func();
+
+
 
     //3、没有块级作用域引起的问题：for的块级
     var btns = document.getElementsByTagName('button');
