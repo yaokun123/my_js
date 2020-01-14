@@ -9,13 +9,13 @@
 
 <h1>方法：</h1>
 <div>
-    <p> 在一个对象中绑定函数，称为这个对象的方法。</p>
-    <p>我们给xiaoming这个对象绑定一个函数（方法）</p>
+    <p> 在一个对象中定义函数，那么这个函数就称为这个对象的方法。</p>
+    <p>我们在xiaoming这个对象中定义一个函数（方法）</p>
     <script>
         var xiaoming = {
             name:"小明",
-            birth:1990,
-            age:function () {//这个就叫做放啊放
+            birth:1992,
+            age:function () {//这个就叫做方法
                 var y = new Date().getFullYear();
 
                 //绑定到对象上的函数称为方法，和普通函数也没啥区别，但是它在内部使用了一个this关键字
@@ -37,20 +37,20 @@
         }
         var xiaoming = {
             name:'小明',
-            birth:1990,
+            birth:1992,
             age:getAge
         };
         console.log("=========2===============");
-        console.log(xiaoming.age()); // 25, 正常结果
+        console.log(xiaoming.age()); // 28, 正常结果
 
-        //单独调用函数getAge(),该函数的this指向全局对象，也就是window
-        console.log(getAge()); // NaN
+        //单独调用函数getAge(),该函数的this指向全局对象，也就是window，而windows没有birth这个属性
+        console.log(getAge()); // NaN = y - undifined
 
         //也是不行的！要保证this指向正确，必须用obj.xxx()的形式调用！
         var fn = xiaoming.age; // 先拿到xiaoming的age函数
         console.log(fn()); // NaN
 
-        //由于这是一个巨大的设计错误，要想纠正可没那么简单。
+        //由于这是一个巨大的设计错误，要想纠正没那么简单。
         // ECMA决定，在strict模式下让函数的this指向undefined，因此，在strict模式下，你会得到一个错误：
         //Uncaught TypeError: Cannot read property 'birth' of undefined
     </script>
@@ -67,12 +67,12 @@
         }
         var xiaoming = {
             name:'小明',
-            birth:1990,
+            birth:1992,
             age:getAge
         };
         console.log("=========3===============");
         console.log(xiaoming.age());
-        console.log(getAge.apply(xiaoming,[]));//这样调用getAge的时候，里面的this就指向xiaoming这个对象了
+        console.log(getAge.apply(xiaoming));//这样调用getAge的时候，里面的this就指向xiaoming这个对象了
     </script>
 </div>
 
