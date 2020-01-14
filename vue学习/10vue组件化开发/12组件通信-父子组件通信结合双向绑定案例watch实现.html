@@ -48,6 +48,7 @@
                         dnumber2:this.number2
                     }
                 },
+                //watch 可以监控组件内属性的变化，将属性作为函数，1个参数表示新值，2个参数表示新值、旧值
                 watch:{
                     dnumber1(newVal){
                         this.$emit('num1change',newVal)
