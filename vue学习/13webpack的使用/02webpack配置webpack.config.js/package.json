@@ -1,0 +1,13 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "introduce": "不知道注释怎么写，暂时写在在这。脚本的命令优先找局部的"
+  },
+  "author": "",
+  "license": "ISC"
+}
