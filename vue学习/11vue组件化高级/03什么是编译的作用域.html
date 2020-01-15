@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--使用的是vue里的属性-->
+    <cpn v-show="isShow"></cpn>
+</div>
+
+<template id="cpn">
+    <div>
+        我是子组件
+        <button>按钮1</button>
+        <!--使用的是组件里的属性-->
+        <button v-show="isShow">按钮2</button>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello world',
+            //vue里买呢的属性
+            isShow:true
+        },
+        components:{
+            cpn:{
+                template:"#cpn",
+                data(){
+                    return {
+                        //子组件中的属性
+                        isShow:false
+                    };
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
