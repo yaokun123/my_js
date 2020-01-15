@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>传统的开发会有全局变量命名冲突等问题</h2>
+<p>
+    可以用闭包来解决命名冲突的问题（函数有自己的作用域）:
+</p>
+<pre>
+    (function(){
+        var flag = true;
+    })()
+</pre>
+<p>
+    但是如果引入闭包的话代码的复用性不高
+</p>
+<hr>
+
+
+
+<h2>如果想解决命名冲突问题并且让代码复用性较高就可以使用模块化</h2>
+<h3>用闭包实现模块化</h3>
+<pre>
+    var moduleA = (function(){
+        var obj = {};
+
+        var flag = true;
+
+        //导出属性
+        obj.flag = flag;
+        return obj;
+    })()
+</pre>
+
+
+<hr>
+<h2>常见的模块化规范</h2>
+<p>1、CommonJS(node.js就是实现这个规范)</p>
+<pre>
+    //CommonJS的导出
+    module.exports = {
+        flag:true,
+        test(a,b){
+            return a + b;
+        }
+    };
+
+    //CommonJS的导入
+    var {flag,sum} = require('xxx.js')
+</pre>
+<p>2、AMD(较少使用)</p>
+<p>3、CMD(较少使用)</p>
+<p>4、ES6的Modules</p>
+<pre>
+    export和import见下一节
+</pre>
+
+
+</body>
+</html>
