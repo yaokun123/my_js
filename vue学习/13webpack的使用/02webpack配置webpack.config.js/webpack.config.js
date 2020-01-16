@@ -12,7 +12,7 @@ module.exports = {
     output:{
 
         //这个路径是绝对路径
-        path:path.resolve(__diename,'dist'),
+        path:path.resolve(__dirname,'dist'),
         filename:'bundle.js'
     }
 };
