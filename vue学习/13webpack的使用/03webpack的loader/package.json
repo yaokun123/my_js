@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "introduce": "不知道注释怎么写，暂时写在在这。脚本的命令优先找局部的"
+    "introduce": "echo \"不知道注释怎么写，暂时写在在这。脚本的命令优先找局部的\" && exit 1 "
   },
   "author": "",
   "license": "ISC",
