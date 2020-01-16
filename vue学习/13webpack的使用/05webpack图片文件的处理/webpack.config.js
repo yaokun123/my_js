@@ -13,7 +13,9 @@ module.exports = {
 
         //这个路径是绝对路径
         path:path.resolve(__dirname,'dist'),
-        filename:'bundle.js'
+        filename:'bundle.js',
+        //以后只要涉及url的东西都会在前面拼接该目录
+        publicPath:'dist/'
     },
     module:{
         rules:[
@@ -40,6 +42,20 @@ module.exports = {
                 }, {
                     loader: "less-loader" // compiles Less to CSS
                 }]
+            },
+            {
+                test: /\.(png|jpg|gif|jpeg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            //当加载的图片，小于limit时会将图片编译成base64字符串形式
+                            //当加载的图片，大于limit时需要使用file-loader模块进行加载
+                            //limit: 8192,
+                            limit: 3000,
+                        }
+                    }
+                ]
             }
         ]
     }
