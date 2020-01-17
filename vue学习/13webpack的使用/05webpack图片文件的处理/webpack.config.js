@@ -30,6 +30,14 @@ module.exports = {
                 //less-loader加载和转译 LESS 文件
                 //npm install --save-dev less-loader less
 
+
+                //url-loader
+                //npm install --save-dev url-loader
+
+
+                //file-loader
+                //npm install --save-dev file-loader
+
                 //webpack使用多个loader时候是从右向左读的
                 use:['style-loader','css-loader']
             },

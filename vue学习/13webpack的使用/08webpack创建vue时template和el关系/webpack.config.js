@@ -36,6 +36,13 @@ module.exports = {
                 //less-loader加载和转译 LESS 文件
                 //npm install --save-dev less-loader less
 
+                //url-loader
+                //npm install --save-dev url-loader
+
+
+                //file-loader
+                //npm install --save-dev file-loader
+
                 //babel-loader
                 //npm install --save-dev babel-loader@7 babel-core babel-preset-es2015
 
