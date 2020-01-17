@@ -22,3 +22,6 @@ require('./css/normal.css');
 
 //依赖less文件
 require('./css/special.less');
+
+
+//打包之后没有const关键字了
