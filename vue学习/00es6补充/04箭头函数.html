@@ -48,6 +48,47 @@
     }
 
 
+    //函数代码块中有多行代码时
+    const test = () => {
+        console.log('hello world');
+
+        console.log('hello vueJs');
+    }
+    //函数代码块中只有一行代码,，可以省略大括号和return
+    const mul = (num1,num2) => num1 * num2;
+
+
+
+
+
+    //箭头函数中this的使用
+    //什么时候使用箭头函数 （一般在使用函数作为参数）
+    setTimeout(function(){
+        console.log(this);//window
+    },1000)
+    setTimeout(() => {
+        console.log(this);//window
+    })
+
+
+
+    //箭头函数中的this引用的就是最近作用域中的this
+    //即一层一层往外找
+    const obj2 = {
+        aaa(){
+            setTimeout(function () {
+                console.log(this);//window
+            },1000)
+
+
+            setTimeout(()=>{
+                console.log(this);//obj2
+            },1000)
+        }
+    }
+
+    obj2.aaa()
+
 
 </script>
 </html>
