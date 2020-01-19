@@ -44,3 +44,11 @@ const app = new Vue({
     },
     template: '<App/>'
 });
+
+
+//配置文件分离之后需要配置package.json指定配置文件
+//webpack --config ./build/prod.config.js
+
+//使用时候需要配置package.json 指定--config
+//由于路径变了，所以还要修改base.config.js中的output.path
+//path:path.resolve(__dirname,'../dist')
