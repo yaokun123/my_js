@@ -1,0 +1,37 @@
+<template>
+  <div id="app">
+    <!--router-link最终会被渲染成a标签
+    router-link to属性，用于指定跳转的路径
+    router-link tag属性，可以指定router-link这之后渲染什么组件
+    router-link replace属性，指定以history.replaceState模式，这样就不会有返回
+    router-link active-class属性，当router-link对应的路由匹配成功时，会自动给当前元素设置一个router-link-active的class，这只active-class可以修改默认的名称（也可以在路由配置中修改）
+-->
+    <router-link to="/home">首页</router-link>
+    <router-link to="/about" tag="button">关于</router-link>
+
+
+    <!--通过代码跳转路由-->
+    <button @click="btnClick">按钮</button>
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+  methods:{
+    btnClick(){
+      //通过代码的方式修改路由
+      this.$router.push('/home')
+
+      //或
+
+      //this.$router.replace('/home')
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
