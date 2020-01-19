@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+
+<script>
+    //箭头函数也是一种定义函数的方式
+
+
+    //1.定义函数的方式:function
+    const aaa = function(){
+
+    };
+
+    //2.对象字面量中定义函数
+    const obj = {
+        bbb:function(){},
+        ccc(){}
+    };
+
+    //3.ES6中的箭头函数
+    //const ddd = (参数列表) => {}
+    //将aaa函数转化为ES6的写法
+    const ddd = () => {
+
+    };
+
+
+    //箭头函数的参数和返回值
+    //放入两个参数
+    const sum = (num1,num2) => {
+        return num1 + num2;
+    };
+
+    //放入一个参数
+    const power = (num) => {
+        return num * num;
+    };
+    //一个参数的时候小括号可以省略
+    const power1 = num => {
+        return num * num;
+    }
+
+
+
+</script>
+</html>
