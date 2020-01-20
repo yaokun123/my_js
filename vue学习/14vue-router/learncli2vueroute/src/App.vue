@@ -21,6 +21,12 @@
     <!--<router-link to="/profile" tag="button">档案</router-link>-->
     <router-link :to="{path:'/profile',query:{name:'test',age:18}}" tag="button">档案</router-link>
     <router-view></router-view>
+
+    <!--keep-alive的使用-->
+    <!--两个重要的属性include和exclude-->
+    <!--<keep-alive exclude="Profile,User">
+      <router-view></router-view>
+    </keep-alive>-->
   </div>
 </template>
 
