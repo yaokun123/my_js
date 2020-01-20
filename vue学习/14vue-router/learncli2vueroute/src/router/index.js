@@ -43,6 +43,9 @@ export default new Router({
     {
       path:'/home',
       component: Home,
+      meta:{//全局导航守卫
+        title:'首页'
+      },
       //路由嵌套
       children:[
         {
@@ -62,7 +65,10 @@ export default new Router({
     },
     {
       path:'/about',
-      component: About
+      component: About,
+      meta: {
+        title:'关于'
+      }
     },
     {
       path:'/btn',
@@ -85,4 +91,15 @@ export default new Router({
       component:Profile
     }
   ]
+}).beforeEach(function (to,from,next) {//全局导航守卫(前置钩子)
+  //从from跳转到to
+  document.title = to.matched[0].meta.title
+
+
+  next()//必须要手动调
 })
+
+//后置钩子
+//afterEach((to,from)=>{})
+
+//除了全局守卫外还有  路由独享的守卫 和 组件内的守卫
