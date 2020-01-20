@@ -16,6 +16,10 @@
 
     <!--动态路由-->
     <router-link :to="'/user/' + userId" tag="button">用户</router-link>
+
+    <!--参数传递-->
+    <!--<router-link to="/profile" tag="button">档案</router-link>-->
+    <router-link :to="{path:'/profile',query:{name:'test',age:18}}" tag="button">档案</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -36,6 +40,9 @@
         //或
 
         //this.$router.replace('/home')
+
+        //通过query参数
+        //this.$router.replace({path:'/home',query:{}})
       }
     }
   }

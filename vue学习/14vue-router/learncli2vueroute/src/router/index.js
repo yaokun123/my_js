@@ -9,6 +9,7 @@ import User from '@/components/User'
 const Laze = () => import('@/components/Laze')
 const HomeNews = () => import('@/components/HomeNews')
 const HomeMessage = () => import('@/components/HomeMessage')
+const Profile = () => import('@/components/Profile')
 
 
 
@@ -78,6 +79,10 @@ export default new Router({
     {
       path:'/laze',
       component: Laze
+    },
+    {
+      path:'/profile',
+      component:Profile
     }
   ]
 })
