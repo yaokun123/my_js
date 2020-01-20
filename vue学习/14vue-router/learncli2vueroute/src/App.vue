@@ -12,6 +12,10 @@
 
     <!--通过代码跳转路由-->
     <button @click="btnClick">按钮</button>
+
+
+    <!--动态路由-->
+    <router-link :to="'/user/' + userId" tag="button">用户</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -19,6 +23,11 @@
 <script>
   export default {
     name: 'App',
+    data(){
+      return {
+        userId:'zhangsan'
+      }
+    },
     methods:{
       btnClick(){
         //通过代码的方式修改路由
