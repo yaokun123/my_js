@@ -1,8 +1,8 @@
 {
-  "name": "learnvuerouter",
+  "name": "learncli2vueroute",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "yaok <yaok@pingansec.com>",
+  "author": "yaokun <yaok@pingansec.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

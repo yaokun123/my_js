@@ -17,19 +17,19 @@
 </template>
 
 <script>
-export default {
-  name: 'App',
-  methods:{
-    btnClick(){
-      //通过代码的方式修改路由
-      this.$router.push('/home')
+  export default {
+    name: 'App',
+    methods:{
+      btnClick(){
+        //通过代码的方式修改路由
+        this.$router.push('/home')
 
-      //或
+        //或
 
-      //this.$router.replace('/home')
+        //this.$router.replace('/home')
+      }
     }
   }
-}
 </script>
 
 <style>
