@@ -5,6 +5,10 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import User from '@/components/User'
 
+//懒加载方式
+const Laze = () => import('@/components/Laze')
+
+
 
 //1、通过Vue.use(插件)，安装插件
 Vue.use(Router)
@@ -46,6 +50,12 @@ export default new Router({
     {
       path:'/user/:userId',
       component: User
+    },
+
+    //懒加载
+    {
+      path:'/laze',
+      component: Laze
     }
   ]
 })
