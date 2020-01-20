@@ -7,6 +7,8 @@ import User from '@/components/User'
 
 //懒加载方式
 const Laze = () => import('@/components/Laze')
+const HomeNews = () => import('@/components/HomeNews')
+const HomeMessage = () => import('@/components/HomeMessage')
 
 
 
@@ -39,11 +41,31 @@ export default new Router({
     },
     {
       path:'/home',
-      component: Home
+      component: Home,
+      //路由嵌套
+      children:[
+        {
+          path:'',
+          redirect:'news'
+        },
+        {
+          //子路由的path会以父路由的path开头
+          path:'news',
+          component:HomeNews
+        },
+        {
+          path:'message',
+          component:HomeMessage
+        }
+      ]
     },
     {
       path:'/about',
       component: About
+    },
+    {
+      path:'/btn',
+      component:()=>import('@/components/BtnClick')
     },
 
     //动态路由

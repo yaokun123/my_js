@@ -31,7 +31,7 @@
     methods:{
       btnClick(){
         //通过代码的方式修改路由
-        this.$router.push('/home')
+        this.$router.push('/btn')
 
         //或
 
