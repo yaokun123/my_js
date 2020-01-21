@@ -14,21 +14,25 @@
         name: "Home",
 
         //声明周期函数
-        created() {
+        /*created() {
             console.log('home created');
         },
         destroyed() {
             console.log('home destroyed');
-        },
+        },*/
+
+
 
         //这两个函数，只有该组件被保持了状态使用了keep-alive，才是有效的
-        activated() {
+        /*activated() {
         },
         deactivated() {
-        },
+        },*/
+
+
 
         //保留状态结合这个函数使用
-        beforeRouteLeave(){}
+        //beforeRouteLeave(){}
     }
 </script>
 

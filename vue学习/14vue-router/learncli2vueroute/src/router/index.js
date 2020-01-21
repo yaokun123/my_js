@@ -19,7 +19,7 @@ Vue.use(Router)
 
 //2、创建路由对象
 //3、将router对象传入到Vue实例（导出）
-export default new Router({
+const router = new Router({
   //修改默认的激活样式
   //linkActiveClass:'active',
 
@@ -72,26 +72,42 @@ export default new Router({
     },
     {
       path:'/btn',
-      component:()=>import('@/components/BtnClick')
+      component:()=>import('@/components/BtnClick'),
+      meta: {
+        title:'按钮'
+      }
     },
 
     //动态路由
     {
       path:'/user/:userId',
-      component: User
+      component: User,
+      meta: {
+        title:'用户'
+      }
     },
 
     //懒加载
     {
       path:'/laze',
-      component: Laze
+      component: Laze,
+      meta: {
+        title:'懒加载'
+      }
     },
     {
       path:'/profile',
-      component:Profile
+      component:Profile,
+      meta: {
+        title:'档案'
+      }
     }
   ]
-}).beforeEach(function (to,from,next) {//全局导航守卫(前置钩子)
+})
+
+
+
+router.beforeEach(function (to,from,next) {//全局导航守卫(前置钩子)
   //从from跳转到to
   document.title = to.matched[0].meta.title
 
@@ -103,3 +119,7 @@ export default new Router({
 //afterEach((to,from)=>{})
 
 //除了全局守卫外还有  路由独享的守卫 和 组件内的守卫
+
+
+
+export default router
