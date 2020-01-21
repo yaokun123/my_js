@@ -10,6 +10,7 @@ import Category from '@/components/tabbar/Category'
 import Shopcart from '@/components/tabbar/Shopcart'
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path:'/home',

@@ -9,7 +9,6 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  mode:'history',//配置history  模式
   router,
   render: h => h(App)
 })
