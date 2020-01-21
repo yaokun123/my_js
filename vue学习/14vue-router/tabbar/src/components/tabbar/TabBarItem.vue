@@ -17,6 +17,10 @@
       },
       methods:{
         tabBarClick(){
+          //防止重复跳转相同地址报错
+          if(this.$route.path == this.path){
+            return false;
+          }
           this.$router.push(this.path)
         }
       }

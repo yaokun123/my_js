@@ -14,19 +14,19 @@ export default new Router({
   routes: [
     {
       path:'/home',
-      components:Home
+      component:Home
     },
     {
       path:'/profile',
-      components:Profile
+      component:Profile
     },
     {
       path:'/category',
-      components:Category
+      component:Category
     },
     {
       path:'/shopcart',
-      components:Shopcart
+      component:Shopcart
     }
   ]
 })
