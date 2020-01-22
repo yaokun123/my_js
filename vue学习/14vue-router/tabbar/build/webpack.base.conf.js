@@ -25,7 +25,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      '@': resolve('src'),
+        '@': resolve('src'),//@是一个别名
     }
   },
   module: {
