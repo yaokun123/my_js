@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //1、使用setTimeout做异步操作
+    /*setTimeout(()=>{
+        console.log('Hello World');
+        console.log('Hello World');
+        console.log('Hello World');
+        console.log('Hello World');
+
+        setTimeout(()=>{
+            console.log('Hello Vue');
+            console.log('Hello Vue');
+            console.log('Hello Vue');
+            console.log('Hello Vue');
+
+            setTimeout(()=>{
+                console.log('Hello Python');
+                console.log('Hello Python');
+                console.log('Hello Python');
+                console.log('Hello Python');
+            },1000)
+        },1000)
+    },1000);*/
+
+
+    //2、Promise链式编程
+    //参数 -> 函数(resolve, reject)
+    //resolve, reject本身又是函数
+    new Promise((resolve, reject) => {
+
+        //第一次网络请求的代码
+        setTimeout(() => {
+            resolve();    //在这里调用resolve（成功）函数之后，会在后面自动调用then函数
+            //失败就调用reject，会在后面自动调用catch函数
+        }, 1000)
+    }).then(() => {
+
+
+        //第一次拿到结果的代码
+        console.log('Hello World');
+        console.log('Hello World');
+        console.log('Hello World');
+        console.log('Hello World');
+        return new Promise((resolve, reject) => {
+
+            //第二次网络请求的代码
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+
+        })
+    }).then(() => {
+
+        //第二次拿到结果的代码
+        console.log('Hello Vue');
+        console.log('Hello Vue');
+        console.log('Hello Vue');
+        console.log('Hello Vue');
+        return new Promise((resolve, reject) => {
+
+            //第三次网络请求的代码
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+        })
+    }).then(() => {
+
+
+        //第三次拿到结果的代码
+        console.log('Hello Python');
+        console.log('Hello Python');
+        console.log('Hello Python');
+        console.log('Hello Python');
+    })
+
+
+    //什么情况下会用到Promise？
+    //一般情况下是有异步操作时，使用Promise对这个异步操作进行封装
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    Promise.all([
+        new Promise((resolve, reject) => {
+            //网络请求1
+            resolve(data)
+        }),
+        new Promise((resolve, reject) => {
+            //网络请求2
+            resolve(data)
+        })
+    ]).then(results => {//results是一个数组，包含两次网络请求返回值
+        //data1 = results[0]
+        //data2 = results[1]
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('hello Vuejs')
+            //reject('error message')
+        }, 1000)
+    }).then().catch()
+
+
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            //resolve('hello Vuejs')
+            reject('error message')
+        }, 1000)
+
+        //then也可以传递两个函数，第一个是成功时候调用，第二个是失败时候调用
+    }).then(data => {
+    }, err => {
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /*new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+
+            resolve('aaaa')
+        },1000)
+    }).then(res=>{
+        //1、自己先处理10行代码
+        console.log(res,'第一层的10行处理代码')
+
+        //2、对结果进行第一次处理
+        return new Promise(resolve => {
+            resolve(res + '111')
+        })
+    }).then(res=>{
+        console.log(res,'第二层的10行处理代码')
+
+        return new Promise(resolve => {
+            resolve(res + '222')
+        })
+    }).then(res=>{
+        console.log(res,'第三层的10行处理代码')
+    })*/
+
+
+
+    //第一种简写
+    /*new Promise(resolve=>resolve(结果))简写*/
+    /*new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+
+            resolve('aaaa')
+        },1000)
+    }).then(res=>{
+        //1、自己先处理10行代码
+        console.log(res,'第一层的10行处理代码')
+
+        //2、对结果进行第一次处理
+        return Promise.resolve(res + '111')
+    }).then(res=>{
+        console.log(res,'第二层的10行处理代码')
+
+        return Promise.resolve(res + '222')
+    }).then(res=>{
+        console.log(res,'第三层的10行处理代码')
+    })*/
+
+
+
+
+
+    //第二种简写
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+
+            resolve('aaaa')
+        }, 1000)
+    }).then(res => {
+        //1、自己先处理10行代码
+        console.log(res, '第一层的10行处理代码')
+
+        //2、对结果进行第一次处理
+        return res + '111'
+    }).then(res => {
+        console.log(res, '第二层的10行处理代码')
+
+        return res + '222'
+    }).then(res => {
+        console.log(res, '第三层的10行处理代码')
+    })
+</script>
+
+</body>
+</html>
