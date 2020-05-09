@@ -9,3 +9,10 @@
 import {basicNum,add} from './test1'
 
 console.log(add(99,basicNum));
+
+
+
+
+//  CommonJs和ES6区别
+//  1） CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用。
+//  2） CommonJS 模块是运行时加载，ES6 模块是编译时输出接口。
